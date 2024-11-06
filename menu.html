@@ -1,0 +1,747 @@
+<!DOCTYPE html>
+<html lang="en">
+<he <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="menustyle.css">
+</head>
+<body>
+
+    <div class="fix">
+        <nav class="navbar navbar-expand-lg" style="position:fixed; top: 0px; z-index: 1; background-color: white;">
+          <div class="container-fluid">
+            <a class="navbarbrand" href="index.html"><img src="img/kfclogo.svg" alt="logo" style="width:130px;height:22px;"></a>
+            <!-- <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button> -->
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                  <a id="men" class="nav-link active " aria-current="page" href="menu.html">Menu</a>
+                </li>
+                <li class="nav-item">
+                  <a id="men" class="nav-link" href="deals.html">Deals</a>
+                </li>
+                
+              </ul>
+              <div class="d-flex" role="search">
+                <a id="men" class="navbar-brand" href="#"><img id="budget" src="img/Account_Icon.svg" alt="logo" >Sign In</a> 
+                <div class="vl"></div>
+                <a class="navbar-brand" href="#"><span style="color: black;">₹0</span><img  id="budget" src="img/bucket_cart_icon.svg" alt="logo" width="100px" height="50px" ></a>
+
+              </div>
+            </div>
+          </div>
+        </nav>
+        <div class="order" style="margin-top: 100px; z-index: -1">
+            <p class="para" >LET'S ORDER FOR DELIVERY, PICK UP, OR DINE-IN</p>&nbsp;&nbsp;&nbsp;
+            <button id="btn1">Start Order</button>
+              </div>
+      </div>
+  
+      <div class="slide">
+      <div id="sidemenu"style="position: sticky; top: 100px;" >
+        <div class="list" >
+             <ul>
+              <li><img src="img/Stripes_Small_OffersIcon.87fc6256.svg" width="55px" height="30px"></li>
+                <li style="font-size: 35px; font-weight: 700;">KFC MENU</li><br>
+                <li>INTERNATIONAL BURGER FEST</li><br>
+                <li>MATCH DAY COMBOS</li><br>
+                <li>VALUE LUNCH SPECIALS</li><br>
+                <li>BOX MEALS</li><br>
+                <li>BURGERS</li><br>
+                <li>CHICKEN BUCKETS</li><br>
+                <li>RICE BOWLZ</li><br>
+                <li>VALUE SNACKERS</li><br>
+                <li>CHICKEN ROLLS</li><br>
+                <li>SNACKS</li><br>
+                <li>BEVERAGES</li><br>
+             </ul>
+            </div>
+      </div>
+      <div id="sidemenuitem" style="margin-left: 40px;"><br><br>
+        <div >
+            <i id="search" class="fa fa-search"></i>
+            <input type="text" class="btnsearch" placeholder="search our menu">
+            <!-- <button class="btnsearch" type="menu" >Search our menu</button> -->
+         <br><br>  <hr> 
+        </div><br><br>
+         <div class="menucontainer" style="border-radius: 5px; " >
+         
+          <div>
+          <p style="font-size: 25px; font-weight: 700; padding: 20px;">INTERNATIONAL BURGER FEST</p>
+        </div>
+        <div class="menubox">
+        <div class="menubox1" >
+          <div>
+          <img src="img/menu/img1.jpg" height="50%" width="80%" style="border-radius: 5px; margin-left: 20px;">
+        </div>
+          <div>
+            <h6 style="padding: 5px 0 0 1rem;">Caribbean Spicy Zinger Burger</h6>
+          </div>
+          <div>
+            <img src="img/menu/Non_veg_dot_Icon.d975d1f9.svg" style="padding:5px 0 0 1rem;">&nbsp;<small style="font-size: 12px;">Non Veg</small>
+          </div>
+          <div>
+           <h6 style="padding: 5px 0 0 1rem;">&#8377;219.05</h6>
+          </div>
+          <div>
+           <p style="padding: 5px 0 0 1rem;  font-size: 14px;"> Relish the Caribbean spicy zinger<p>
+          </div>
+          <div style="margin-left: 40px;">
+            <button class="add rounded-pill">Add to cart&nbsp;&nbsp;<img src="img/menu/Icon_Add_to_Cart.58b87a9b.svg"> </button>
+          </div>
+        </div>
+        <div class="menubox1">
+          <div>
+          <img src="img/menu/img2.jpg" height="44%" width="80%" style="border-radius: 5px; margin-left: 20px;">
+        </div>
+          <div>
+            <h6 style="padding: 5px 0 0 1rem;">Caribbean Spicy Zinger Burger & Chicken Meal</h6>
+          </div>
+          <div>
+            <img src="img/menu/Non_veg_dot_Icon.d975d1f9.svg" style="padding:5px 0 0 1rem;">&nbsp;<small style="font-size: 12px;">Non Veg</small>
+          </div>
+          <div>
+           <h6 style="padding: 5px 0 0 1rem;">&#8377;379.05</h6>
+          </div>
+          <div>
+           <p style="padding: 5px 0 0 1rem; font-size: 14px;"> New Caribbean Spicy Zinger Burger with 1 Pc Hot & Crispy and Pepsi PET 475ml at a deal price<p>
+          </div>
+          <div style="margin-left: 40px;">
+            <button class="add rounded-pill">Add to cart&nbsp;&nbsp;<img src="img/menu/Icon_Add_to_Cart.58b87a9b.svg"> </button>
+          </div>
+        </div>
+        <div class="menubox1" >
+          <div>
+          <img src="img/menu/img3.jpg" height="50%" width="80%" style="border-radius: 5px; margin-left: 20px;">
+        </div>
+          <div>
+            <h6 style="padding: 5px 0 0 1rem;">Caribbean Spicy Zinger Burger & Popcorn Meal</h6>
+          </div>
+          <div>
+            <img src="img/menu/Non_veg_dot_Icon.d975d1f9.svg" style="padding:5px 0 0 1rem;">&nbsp;<small style="font-size: 12px;">Non Veg</small>
+          </div>
+          <div>
+           <h6 style="padding: 5px 0 0 1rem;">₹439.05</h6>
+          </div>
+          <div>
+           <p style="padding: 5px 0 0 1rem;  font-size: 14px;"> Caribbean Spicy Zinger Burger with Medium Popcorn and Pepsi PET 475ml at a deal price<p>
+          </div>
+          <div style="margin-left: 40px;">
+            <button class="add rounded-pill">Add to cart&nbsp;&nbsp;<img src="img/menu/Icon_Add_to_Cart.58b87a9b.svg"> </button>
+          </div>
+        </div>
+        <div class="menubox1" >
+          <div>
+          <img src="img/menu/img4.jpg" height="50%" width="80%" style="border-radius: 5px; margin-left: 20px;">
+        </div>
+          <div>
+            <h6 style="padding: 5px 0 0 1rem; ">Mexican Zinger Pro Burger</h6>
+          </div>
+          <div>
+            <img src="img/menu/Non_veg_dot_Icon.d975d1f9.svg" style="padding:5px 0 0 1rem;">&nbsp;<small style="font-size: 12px;">Non Veg</small>
+          </div>
+          <div>
+           <h6 style="padding: 5px 0 0 1rem;">₹239.05</h6>
+          </div>
+          <div>
+           <p style="padding: 5px 0 0 1rem;  font-size: 14px;"> Premium burger with crunchy chicken, Mexican Habanero sauce, cheese, tomato & onion<p>
+          </div>
+          <div style="margin-left: 40px;">
+            <button class="add rounded-pill">Add to cart&nbsp;&nbsp;<img src="img/menu/Icon_Add_to_Cart.58b87a9b.svg"> </button>
+          </div>
+        </div>
+        <div class="menubox1" >
+          <div>
+          <img src="img/menu/img5.jpg" height="50%" width="80%" style="border-radius: 5px; margin-left: 20px;">
+        </div>
+          <div>
+            <h6 style="padding: 5px 0 0 1rem;">Mexican Zinger Pro Burger & Chicken Mealr</h6>
+          </div>
+          <div>
+            <img src="img/menu/Non_veg_dot_Icon.d975d1f9.svg" style="padding:5px 0 0 1rem;">&nbsp;<small style="font-size: 12px;">Non Veg</small>
+          </div>
+          <div>
+           <h6 style="padding: 5px 0 0 1rem;">&#8377;399.05</h6>
+          </div>
+          <div>
+           <p style="padding: 5px 0 0 1rem;  font-size: 14px;"> New Zinger Pro burger with 1 Hot & Crispy chicken & Pepsi 475ml at a deal price<p>
+          </div>
+          <div style="margin-left: 40px;">
+            <button class="add rounded-pill">Add to cart&nbsp;&nbsp;<img src="img/menu/Icon_Add_to_Cart.58b87a9b.svg"> </button>
+          </div>
+        </div>
+        <div class="menubox1" >
+          <div>
+          <img src="img/menu/img6.jpg" height="50%" width="80%" style="border-radius: 5px; margin-left: 20px;">
+        </div>
+          <div>
+            <h6 style="padding: 5px 0 0 1rem;">Mexican Zinger Pro Burger & Popcorn Meal</h6>
+          </div>
+          <div>
+            <img src="img/menu/Non_veg_dot_Icon.d975d1f9.svg" style="padding:5px 0 0 1rem;">&nbsp;<small style="font-size: 12px;">Non Veg</small>
+          </div>
+          <div>
+           <h6 style="padding: 5px 0 0 1rem;">&#8377;459.05</h6>
+          </div>
+          <div>
+           <p style="padding: 5px 0 0 1rem;  font-size: 14px;">New Zinger Pro burger with Medium Popcorn & Pepsi 475ml at a deal price<p>
+          </div>
+          <div style="margin-left: 40px;">
+            <button class="add rounded-pill">Add to cart&nbsp;&nbsp;<img src="img/menu/Icon_Add_to_Cart.58b87a9b.svg"> </button>
+          </div>
+        </div>
+        <div class="menubox1" >
+          <div>
+          <img src="img/menu/img7.jpg" height="50%" width="80%" style="border-radius: 5px; margin-left: 20px;">
+        </div>
+          <div>
+            <h6 style="padding: 5px 0 0 1rem;">American Classic Zinger</h6>
+          </div>
+          <div>
+            <img src="img/menu/Non_veg_dot_Icon.d975d1f9.svg" style="padding:5px 0 0 1rem;">&nbsp;<small style="font-size: 12px;">Non Veg</small>
+          </div>
+          <div>
+           <h6 style="padding: 5px 0 0 1rem;">₹199.05</h6>
+          </div>
+          <div>
+           <p style="padding: 5px 0 0 1rem;  font-size: 14px;">Relish the KFC Classic Zinger-lettuce, mayo & Zinger patty filled between<p>
+          </div>
+          <div style="margin-left: 40px;">
+            <button class="add rounded-pill">Add to cart&nbsp;&nbsp;<img src="img/menu/Icon_Add_to_Cart.58b87a9b.svg"> </button>
+          </div>
+        </div>
+        <div class="menubox1" >
+          <div>
+          <img src="img/menu/img8.jpg" height="50%" width="80%" style="border-radius: 5px; margin-left: 20px;">
+        </div>
+          <div>
+            <h6 style="padding: 5px 0 0 1rem;">American Classic Zinger-with Cheese</h6>
+          </div>
+          <div>
+            <img src="img/menu/Non_veg_dot_Icon.d975d1f9.svg" style="padding:5px 0 0 1rem;">&nbsp;<small style="font-size: 12px;">Non Veg</small>
+          </div>
+          <div>
+           <h6 style="padding: 5px 0 0 1rem;">&#8377;224.05</h6>
+          </div>
+          <div>
+           <p style="padding: 5px 0 0 1rem;  font-size: 14px;">Signature burger with a crunchy chicken fillet, cheese slice, veggies & a delicious mayo sauce<p>
+          </div>
+          <div style="margin-left: 40px;">
+            <button class="add rounded-pill">Add to cart&nbsp;&nbsp;<img src="img/menu/Icon_Add_to_Cart.58b87a9b.svg"> </button>
+          </div>
+        </div>
+        <div class="menubox1" >
+          <div>
+          <img src="img/menu/img9.jpg" height="50%" width="80%" style="border-radius: 5px; margin-left: 20px;">
+        </div>
+          <div>
+            <h6 style="padding: 5px 0 0 1rem;">Indian Tandoori Zinger Burger</h6>
+          </div>
+          <div>
+            <img src="img/menu/Non_veg_dot_Icon.d975d1f9.svg" style="padding:5px 0 0 1rem;">&nbsp;<small style="font-size: 12px;">Non Veg</small>
+          </div>
+          <div>
+           <h6 style="padding: 5px 0 0 1rem;">&#8377;208.57</h6>
+          </div>
+          <div>
+           <p style="padding: 5px 0 0 1rem;  font-size: 14px;"> Grab Tandoori Zinger Burger with Onions & Tangy sauce<p>
+          </div>
+          <div style="margin-left: 40px;">
+            <button class="add rounded-pill">Add to cart&nbsp;&nbsp;<img src="img/menu/Icon_Add_to_Cart.58b87a9b.svg"> </button>
+          </div>
+        </div>
+        <div class="menubox1" >
+          <div>
+          <img src="img/menu/img10.jpg" height="50%" width="80%" style="border-radius: 5px; margin-left: 20px;">
+        </div>
+          <div>
+            <h6 style="padding: 5px 0 0 1rem;">Indian Tandoori Zinger Burger -with Cheese</h6>
+          </div>
+          <div>
+            <img src="img/menu/Non_veg_dot_Icon.d975d1f9.svg" style="padding:5px 0 0 1rem;">&nbsp;<small style="font-size: 12px;">Non Veg</small>
+          </div>
+          <div>
+           <h6 style="padding: 5px 0 0 1rem;">&#8377;233.57</h6>
+          </div>
+          <div>
+           <p style="padding: 5px 0 0 1rem;  font-size: 14px;">Chicken zinger with aádelicious tandoori sauce & cheese slicer<p>
+          </div>
+          <div style="margin-left: 40px;">
+            <button class="add rounded-pill">Add to cart&nbsp;&nbsp;<img src="img/menu/Icon_Add_to_Cart.58b87a9b.svg"> </button>
+          </div>
+        </div>
+        <div class="menubox1" >
+          <div>
+          <img src="img/menu/img11.jpg" height="50%" width="80%" style="border-radius: 5px; margin-left: 20px;">
+        </div>
+          <div>
+            <h6 style="padding: 5px 0 0 1rem;">Indian Paneer Zinger Burger</h6>
+          </div>
+          <div>
+            <img src="img/menu/Non_veg_dot_Icon.d975d1f9.svg" style="padding:5px 0 0 1rem;">&nbsp;<small style="font-size: 12px;">Non Veg</small>
+          </div>
+          <div>
+           <h6 style="padding: 5px 0 0 1rem;">&#8377;208.57</h6>
+          </div>
+          <div>
+           <p style="padding: 5px 0 0 1rem;  font-size: 14px;">Relish the Indian paneer zinger<p>
+          </div>
+          <div style="margin-left: 40px;">
+            <button class="add rounded-pill">Add to cart&nbsp;&nbsp;<img src="img/menu/Icon_Add_to_Cart.58b87a9b.svg"> </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Match box combos -->
+    <br><br>
+    <div>
+      <h3 style="font-weight: 400; font-family: fantasy;">MATCH DAY COMBOS</h3>
+    </div><br><br>
+    <div class="match">
+      
+      <div class="card shadow" style="width: 17rem;">
+        <img src="img/match/img1.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <div>
+            <h6 style="padding: 5px 0 0 1rem;">Cricket Crunch Meal</h6>
+          </div>
+          <div>
+            <img src="img/menu/Non_veg_dot_Icon.d975d1f9.svg" style="padding:5px 0 0 1rem;">&nbsp;<small style="font-size: 12px;">Non veg Serves 1-2</small>
+          </div>
+          <div>
+           <h6 style="padding: 5px 0 0 1rem;">₹449.00</h6>
+          </div>
+          <div>
+           <p style="padding: 5px 0 0 1rem;  font-size: 14px;">Crunchy Savings of Rs. 75 & Enjoy 2pc Hot & Crispy Chicken, 4 chicken wings , 2 dips & a chilled Pepsi Black..<p>
+          </div>
+          <div style="margin-left: 40px;">
+            <button class="add rounded-pill" >Add to cart&nbsp;&nbsp;<img src="img/menu/Icon_Add_to_Cart.58b87a9b.svg"> </button>
+          </div>
+        </div>
+      </div>
+      <div class="card shadow" style="width: 17rem;">
+        <img src="img/match/img2.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <div>
+            <h6 style="padding: 5px 0 0 1rem;">Ultimate Savings Chicken Bucket</h6>
+          </div>
+          <div>
+            <img src="img/menu/Non_veg_dot_Icon.d975d1f9.svg" style="padding:5px 0 0 1rem;">&nbsp;<small style="font-size: 12px;">Non veg Serves 2-3</small>
+          </div>
+          <div>
+           <h6 style="padding: 5px 0 0 1rem;">₹1094.00₹699.05</h6>
+          </div>
+          <div>
+           <p style="padding: 5px 0 0 1rem;  font-size: 14px;">Savings of 35% on signature bucket of 4pc Hot & crispy chicken, 6 Pc Wings, 4 Chicken Peri Peri Boneless..<p>
+          </div>
+          <div style="margin-left: 40px;">
+            <button class="add rounded-pill">Add to cart&nbsp;&nbsp;<img src="img/menu/Icon_Add_to_Cart.58b87a9b.svg"> </button>
+          </div>
+        </div>
+      </div>
+      <div class="card shadow" style="width: 17rem;">
+        <img src="img/match/img3.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <div>
+            <h6 style="padding: 5px 0 0 1rem;">Playing 11 Chicken Meal</h6>
+          </div>
+          <div>
+            <img src="img/menu/Non_veg_dot_Icon.d975d1f9.svg" style="padding:5px 0 0 1rem;">&nbsp;<small style="font-size: 12px;">Non veg Serves 2-4</small>
+          </div>
+          <div>
+           <h6 style="padding: 5px 0 0 1rem;">₹599.00</h6>
+          </div>
+          <div>
+           <p style="padding: 5px 0 0 1rem;  font-size: 14px;">Enjoy Special 11 meal by saving Rs. 164 on 3 Pc Chicken Leg Piece, 4 Pc Peri peri Strips & 4 Pc Hot Wings<p>
+          </div>
+          <div style="margin-left: 40px;">
+            <button class="add rounded-pill">Add to cart&nbsp;&nbsp;<img src="img/menu/Icon_Add_to_Cart.58b87a9b.svg"> </button>
+          </div>
+        </div>
+      </div>
+     </div> 
+     <br><br>
+     <div class="match">
+      
+      <div class="card shadow" style="width: 17rem;">
+        <img src="img/match/img4.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <div>
+            <h6 style="padding: 5px 0 0 1rem;">Cricket Crunch Meal</h6>
+          </div>
+          <div>
+            <img src="img/menu/Non_veg_dot_Icon.d975d1f9.svg" style="padding:5px 0 0 1rem;">&nbsp;<small style="font-size: 12px;">Non veg Serves 1-2</small>
+          </div>
+          <div>
+           <h6 style="padding: 5px 0 0 1rem;">₹449.00</h6>
+          </div>
+          <div>
+           <p style="padding: 5px 0 0 1rem;  font-size: 14px;">Crunchy Savings of Rs. 75 & Enjoy 2pc Hot & Crispy Chicken, 4 chicken wings , 2 dips & a chilled Pepsi Black..<p>
+          </div>
+          <div style="margin-left: 40px;">
+            <button class="add rounded-pill">Add to cart&nbsp;&nbsp;<img src="img/menu/Icon_Add_to_Cart.58b87a9b.svg"> </button>
+          </div>
+        </div>
+      </div>
+      <div class="card shadow" style="width: 17rem;">
+        <img src="img/match/img5.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <div>
+            <h6 style="padding: 5px 0 0 1rem;">Ultimate Savings Chicken Bucket</h6>
+          </div>
+          <div>
+            <img src="img/menu/Non_veg_dot_Icon.d975d1f9.svg" style="padding:5px 0 0 1rem;">&nbsp;<small style="font-size: 12px;">Non veg Serves 2-3</small>
+          </div>
+          <div>
+           <h6 style="padding: 5px 0 0 1rem;"><s>₹1094.00</s>₹699.05</h6>
+          </div>
+          <div>
+           <p style="padding: 5px 0 0 1rem;  font-size: 14px;">Savings of 35% on signature bucket of 4pc Hot & crispy chicken, 6 Pc Wings, 4 Chicken..<p>
+          </div>
+          <div style="margin-left: 40px;">
+            <button class="add rounded-pill">Add to cart&nbsp;&nbsp;<img src="img/menu/Icon_Add_to_Cart.58b87a9b.svg"> </button>
+          </div>
+        </div>
+      </div>
+      <div class="card shadow" style="width: 17rem;">
+        <img src="img/match/img6.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <div>
+            <h6 style="padding: 5px 0 0 1rem;">Playing 11 Chicken Meal</h6>
+          </div>
+          <div>
+            <img src="img/menu/Non_veg_dot_Icon.d975d1f9.svg" style="padding:5px 0 0 1rem;">&nbsp;<small style="font-size: 12px;">Non veg Serves 2-4</small>
+          </div>
+          <div>
+           <h6 style="padding: 5px 0 0 1rem;">₹599.00</h6>
+          </div>
+          <div>
+           <p style="padding: 5px 0 0 1rem;  font-size: 14px;">Enjoy Special 11 meal by saving Rs. 164 on 3 Pc Chicken Leg Piece, 4 Pc Peri peri Strips & 4 Pc Hot Wings<p>
+          </div>
+          <div style="margin-left: 40px;">
+            <button class="add rounded-pill">Add to cart&nbsp;&nbsp;<img src="img/menu/Icon_Add_to_Cart.58b87a9b.svg"> </button>
+          </div>
+        </div>
+      </div>
+     </div> 
+     <!--   Value lunch --> 
+     <br><br>
+     <div>
+       <h3 style="font-weight: 400; font-family: fantasy;">VALUE LUNCH SPECIALS</h3>
+     </div><br><br>
+     <div class="match">
+       
+       <div class="card shadow" style="width: 17rem;">
+         <img src="img/value/img1.jpg" class="card-img-top" alt="...">
+         <div class="card-body">
+           <div>
+             <h6 style="padding: 5px 0 0 1rem;">2 Chicken Longer Burgers Lunch Combo</h6>
+           </div>
+           <div>
+             <img src="img/menu/Non_veg_dot_Icon.d975d1f9.svg" style="padding:5px 0 0 1rem;">&nbsp;<small style="font-size: 12px;">Non veg Serves 1-2</small>
+           </div>
+           <div>
+            <h6 style="padding: 5px 0 0 1rem;">₹299.05</h6>
+           </div>
+           <div>
+            <p style="padding: 5px 0 0 1rem;  font-size: 14px;">Save 40% on new 2 Chicken Longer Burgers, 4 Chicken Strips and a Pepsi PET 475ml<p>
+           </div>
+           <div style="margin-left: 40px;">
+             <button class="add rounded-pill">Add to cart&nbsp;&nbsp;<img src="img/menu/Icon_Add_to_Cart.58b87a9b.svg"> </button>
+           </div>
+         </div>
+       </div>
+       <div class="card shadow" style="width: 17rem;">
+         <img src="img/value/img2.jpg" class="card-img-top" alt="...">
+         <div class="card-body">
+           <div>
+             <h6 style="padding: 5px 0 0 1rem;">2 Chicken Rolls Lunch Combo</h6>
+           </div>
+           <div>
+             <img src="img/menu/Non_veg_dot_Icon.d975d1f9.svg" style="padding:5px 0 0 1rem;">&nbsp;<small style="font-size: 12px;">Non veg Serves 2-3</small>
+           </div>
+           <div>
+            <h6 style="padding: 5px 0 0 1rem;">₹299.05</h6>
+           </div>
+           <div>
+            <p style="padding: 5px 0 0 1rem;  font-size: 14px;">Save 44% on new 2 Single Chicken Rolls, 4 Chicken Strips and a 1 Pepsi PET 475ml<p>
+           </div>
+           <div style="margin-left: 40px;">
+             <button class="add rounded-pill">Add to cart&nbsp;&nbsp;<img src="img/menu/Icon_Add_to_Cart.58b87a9b.svg"> </button>
+           </div>
+         </div>
+       </div>
+       <div class="card shadow" style="width: 17rem;">
+         <img src="img/value/img3.jpg" class="card-img-top" alt="...">
+         <div class="card-body">
+           <div>
+             <h6 style="padding: 5px 0 0 1rem;">2 Rice Bowlz Lunch Combo</h6>
+           </div>
+           <div>
+             <img src="img/menu/Non_veg_dot_Icon.d975d1f9.svg" style="padding:5px 0 0 1rem;">&nbsp;<small style="font-size: 12px;">Non veg Serves 2</small>
+           </div>
+           <div>
+            <h6 style="padding: 5px 0 0 1rem;">₹299.05</h6>
+           </div>
+           <div>
+            <p style="padding: 5px 0 0 1rem;  font-size: 14px;">Save 31% on new 2 Rizo Rice Bowlz, 4 Chicken Strips and a 1 Pepsi PET 475ml<p>
+           </div>
+           <div style="margin-left: 40px;">
+             <button class="add rounded-pill">Add to cart&nbsp;&nbsp;<img src="img/menu/Icon_Add_to_Cart.58b87a9b.svg"> </button>
+           </div>
+         </div>
+       </div>
+      </div> 
+      <br><br>
+      <!-- Rice Blow  -->
+      <br><br>
+     <div>
+       <h3 style="font-weight: 400; font-family: fantasy;">RICE BOWLZ</h3>
+     </div><br><br>
+     <div class="match">
+       
+       <div class="card shadow" style="width: 17rem;">
+         <img src="img/rice/img1.jpg" class="card-img-top" alt="...">
+         <div class="card-body">
+           <div>
+             <h6 style="padding: 5px 0 0 1rem;">Duo Popcorn Chicken Rice Bowlz</h6>
+           </div>
+           <div>
+             <img src="img/menu/Non_veg_dot_Icon.d975d1f9.svg" style="padding:5px 0 0 1rem;">&nbsp;<small style="font-size: 12px;">Non veg Serves 1</small>
+           </div>
+           <div>
+            <h6 style="padding: 5px 0 0 1rem;">₹428.57</h6>
+           </div>
+           <div>
+            <p style="padding: 5px 0 0 1rem;  font-size: 14px;">Save Rs. 30 on beloved Chicken Rice Bowlz served with signature Popcorn<p>
+           </div>
+           <div style="margin-left: 40px;">
+             <button class="add rounded-pill">Add to cart&nbsp;&nbsp;<img src="img/menu/Icon_Add_to_Cart.58b87a9b.svg"> </button>
+           </div>
+         </div>
+       </div>
+       <div class="card shadow" style="width: 17rem;">
+         <img src="img/rice/img2.jpg" class="card-img-top" alt="...">
+         <div class="card-body">
+           <div>
+             <h6 style="padding: 5px 0 0 1rem;">Classic Chicken Rice Bowlz</h6>
+           </div>
+           <div>
+             <img src="img/menu/Non_veg_dot_Icon.d975d1f9.svg" style="padding:5px 0 0 1rem;">&nbsp;<small style="font-size: 12px;">Non veg Serves 1</small>
+           </div>
+           <div>
+            <h6 style="padding: 5px 0 0 1rem;">₹229.52</h6>
+           </div>
+           <div>
+            <p style="padding: 5px 0 0 1rem;  font-size: 14px;">Rice Bowlz Attack!- Grab this aromatic Rice Bowlz rice with 1 piece Hot & Cripsy & gravy<p>
+           </div>
+           <div style="margin-left: 40px;">
+             <button class="add rounded-pill">Add to cart&nbsp;&nbsp;<img src="img/menu/Icon_Add_to_Cart.58b87a9b.svg"> </button>
+           </div>
+         </div>
+       </div>
+       <div class="card shadow" style="width: 17rem;">
+         <img src="img/rice/img3.jpg" class="card-img-top" alt="...">
+         <div class="card-body">
+           <div>
+             <h6 style="padding: 5px 0 0 1rem;">Smoky Red Chicken Rice Bowlz</h6>
+           </div>
+           <div>
+             <img src="img/menu/Non_veg_dot_Icon.d975d1f9.svg" style="padding:5px 0 0 1rem;">&nbsp;<small style="font-size: 12px;">Non veg Serves 1</small>
+           </div>
+           <div>
+            <h6 style="padding: 5px 0 0 1rem;">₹229.52</h6>
+           </div>
+           <div>
+            <p style="padding: 5px 0 0 1rem;  font-size: 14px;">Rice Bowlz Attack!- Grab this aromatic Rice Bowlz with smoky grilled chicken & gravy!<p>
+           </div>
+           <div style="margin-left: 40px;">
+             <button class="add rounded-pill">Add to cart&nbsp;&nbsp;<img src="img/menu/Icon_Add_to_Cart.58b87a9b.svg"> </button>
+           </div>
+         </div>
+       </div>
+      </div> 
+      <br><br>
+      
+    </div>
+    </div>
+  </div>
+    <div class="" style="background-color: black; color: white;">
+
+      <!-- <footer class=" text-center text-lg-start text-white"> -->
+        <!-- Grid container -->
+        <div class="container p-4">
+          <!--Grid row-->
+          <div class="row my-8">
+            <!--Grid column-->
+            <div class="col">
+    
+              <div class=" " style="width: 150px; height: 150px;">
+                <img src="img/KFC_Logo.svg" height="60" alt=""
+                     />
+              </div>
+    
+              <!-- <p class="text-center">Homless animal shelter The budgetary unit of the Capital City of Warsaw</p> -->
+    
+              
+    
+            </div>
+            <!--Grid column-->
+    
+            <!--Grid column-->
+            <div class="col">
+              
+              <h5 class="small">KFC India</h5>
+    
+              <ul class="list-unstyled">
+                <li class="mb-2">
+                  <a href="#!" class="text-white small">About KFC</a>
+                </li>
+                <li class="mb-2">
+                  <a href="#!" class="text-white small">KFC Care</a>
+                </li>
+                <li class="mb-2">
+                  <a href="#!" class="text-white small">Careers</a>
+                </li>
+                <li class="mb-2">
+                  <a href="#!" class="text-white small">Our Golden Past</a>
+                </li>
+                <li class="mb-2">
+                  <a href="#!" class="text-white small">Responsible Disclosure</a>
+                </li>
+                
+              </ul>
+            </div>
+            <!--Grid column-->
+    
+            <!--Grid column-->
+            <div class="col">
+              <h5 class= mb-4">Legal</h5>
+    
+              <ul class="list-unstyled">
+                <li class="mb-2">
+                  <a href="#!" class="text-white small">Terms and Conditions</a>
+                </li>
+                <li class="mb-2">
+                  <a href="#!" class="text-white small">Privacy Policy</a>
+                </li>
+                <li class="mb-2">
+                  <a href="#!" class="text-white small">Disclamer</a>
+                </li>
+                <li class="mb-2">
+                  <a href="#!" class="text-white small">Caution Notice</a>
+                </li>
+               
+              </ul>
+            </div>
+            <!--Grid column-->
+    
+            <!--Grid column-->
+            <div class="col">
+              
+              <h5 class="small">KFC Food</h5>
+    
+              <ul class="list-unstyled">
+                <li class="mb-2">
+                  <a href="#!" class="text-white small">Menu</a>
+                </li>
+                <li class="mb-2">
+                  <a href="#!" class="text-white small">Order Lookup</a>
+                </li>
+                <li class="mb-2">
+                  <a href="#!" class="text-white small">Gift Card</a>
+                </li>
+                <li class="mb-2">
+                  <a href="#!" class="text-white small">Nutrition & AllergenPrivacy</a>
+                </li>
+                
+              </ul>
+            </div>
+
+            <div class="col">
+              
+              <h5 class="small">Support</h5>
+    
+              <ul class="list-unstyled">
+                <li class="mb-2">
+                  <a href="#!" class="text-white small">Get Help</a>
+                </li>
+                <li class="mb-2">
+                  <a href="#!" class="text-white small">Contact Us</a>
+                </li>
+                <li class="mb-2">
+                  <a href="#!" class="text-white small">HFC Feedback</a>
+                </li>
+                <li class="mb-2">
+                  <a href="#!" class="text-white small">Privacy Policy</a>
+                </li>
+                
+              </ul>
+            </div>
+
+             <div class="col">
+              <i class="fa-solid fa-location-dot fa-flip-horizontal" style="color: #fa0511;"></i>&nbsp;&nbsp;&nbsp;
+              <p class="para small"><u>Find a KFC</u> </p> 
+              
+             
+            </div>
+
+             <div class="col">
+              
+              <div class=" " style="width: 150px; height: 150px;">
+                <img src="img/google_play.svg" height="60" alt=""
+                     />
+              </div>
+            </div>
+            
+            <div class="col">
+              
+              <div class=" " style="width: 150px; height: 150px;">
+                <img src="img/apple.svg" height="60" alt=""
+                     />
+              </div>
+            </div>
+            <!--Grid column-->
+          </div>
+          <!--Grid row-->
+        </div>
+        <!-- Grid container -->
+    
+        <!-- Copyright -->
+        <div id="copy" class="text-center p-3" >
+       <span>Copyright &copy KFC Corporation 2024 All rights reserved </span>
+          <!-- <a class="text-white" href="https://mdbootstrap.com/"></a> -->
+
+          <ul class="list-unstyled d-flex flex-row justify-content-center">
+            <li>
+              <a class=" text-white px-2" href="#!">
+                <i class="fa-brands fa-instagram"></i>
+              </a>
+            </li>
+            <li>
+              <a class="text-white px-2" href="#!">
+                <i class="fa-brands fa-facebook-f"></i>
+              </a>
+            </li>
+            <li>
+              <a class="text-white ps-2" href="#!">
+                <i class="fa-brands fa-twitter"></i>
+              </a>
+            </li>
+          </ul>
+        </div>
+        <!-- Copyright -->
+      <!-- </footer> -->
+    
+    </div>
+   
+   </body>
+  
+   </html>
+

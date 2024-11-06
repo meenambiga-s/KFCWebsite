@@ -1,0 +1,175 @@
+*{
+    margin: 0%;
+    /* font-family: fantasy; */
+    /* font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";; */
+    /* box-sizing: border-box; */
+}
+hr{
+    margin: 0%;
+}
+.header{
+display: flex;
+justify-content: center;
+text-align: center;
+padding-top: 20px;
+font-size: 14px;
+font-weight: 400;
+list-style-type: none;
+}
+.fix{
+  /* margin: 0;
+  padding: 0; */
+  overflow: hidden;
+  background-color: white;
+  /* position: fixed;
+  top: 0; */
+  /* width: 100%;  */
+}
+#btn{
+font-size: 11px;
+background-color: black;
+color: white;
+font-weight: 600;
+padding-left: 1.4%;
+padding-right: 1.5%;
+border-radius: 20px 20px 20px 20px;
+border: none;
+}
+
+
+.order{
+background-color: black;
+color: aliceblue;
+font-size: 16px;
+display: flex;
+justify-content: center;
+padding: 17px;
+font-family: fantasy;
+font-weight: 90;
+font-style: normal;
+width: 100vw;
+}
+#btn1{
+font-size: 14px;
+background-color: rgb(230, 16, 16);
+color: rgba(255, 255, 255, 0.989);
+font-weight: 400;
+font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto;
+padding-left: 4%;
+padding-right: 4%;
+border-radius: 20px 20px 20px 20px;
+border: none;
+padding-top: 1%;
+padding-bottom: 1%;
+border: none;
+}
+#btn1:hover{
+    background-color: rgb(207, 26, 26);
+}
+.navbar-brand{
+margin-left: 10%;
+
+} 
+.navbarbrand{ margin-left: 6%;}
+.navbar{
+    padding: 20px;
+width: 100vw;
+
+}
+.menu {
+color: black;
+font-size: 10px;
+font-weight: 600;
+margin-right: 400px
+}
+.Deals{
+color: black;
+font-size: 13px;
+font-weight: 600;
+margin-right: 400px
+}
+
+a:link { text-decoration: none; }
+a:visited { text-decoration: none; }
+a:hover { text-decoration: none; }
+a:active { text-decoration: none; }
+#men{
+    font-size: 13px;
+    font-weight: 700;
+    color: black;
+}
+
+h2{
+    font-family: fantasy;
+   font-weight: 100; 
+}
+
+.vl {
+    border-left: 1px solid rgb(202, 203, 202);
+    height: 40px;
+  }
+  
+#budget{
+    text-align: center;
+}
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 70px;
+    font-family: fantasy;
+    color: white;
+  }
+  #viewD{
+    font-size: 13px;
+    color: black;
+    font-weight: 500;
+}
+.national{
+    font-family: fantasy;
+    font-size: 40px;
+    color: black;
+}
+
+#cardtitle
+{
+   color: red;
+   font-family: fantasy;
+    font-weight: 90;
+    font-size: 30px;
+
+}
+.par{
+    color: black;
+    text-align: center;
+}
+#btn2{
+    font-size: 13px;
+    font-weight: 600;
+    background-color:white;
+    color: black;
+    font-weight: 400;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto;
+    border-radius: 20px 20px 20px 20px;
+    padding: 10px 25px 10px 25px;
+}
+#btn2:hover {
+    background-color: #070707;
+    color: white;
+
+}
+.match{
+    display: flex;
+  justify-content: space-around;
+}
+#viewD{
+    font-size: 13px;
+    color: black;
+    font-weight: 600;
+}
+#copy{
+    display: flex;
+    justify-content: space-around;
+    font-size: 12px;
+}
